@@ -9,7 +9,7 @@
 
 <div>
 <!-- Imagem criada pela Chleba -->
-<img id="chleba" src='http://servico.addintelligence.com.br/contentserver/CeC.cli/CustRel.aspx?servico=Decoração&canal=Moldura de Parede&subcanal=Guarnição Moderna 7cm X 2,40m Ref. 456&tiporel=8' width='0' height='0' border='0'>
+<img id="imSource" src='http://seulink.com/?descrição da imagem = Testando çéìãÂ &título da imagem = çéìãÂ' width='0' height='0' border='0'>
 </div>
 
 <!-- div de retorno *apenas para referencia -->
@@ -18,7 +18,7 @@
 <script type="text/javascript">
 
 	// variável responsável por pegar o source da tag <img>
-	var srcImagem = document.getElementById("chleba").src;
+	var srcImagem = document.getElementById("imSource").src;
 
 	// variável que faz o replace dos caracteres especiais
 	var novoSrc = srcImagem.replace(/%20/g, '_').replace(/%C3/g, 'c').replace(/c%87/g, 'C').replace(/%A7c%A3/g, 'a').replace(/c%A1/g, 'a').replace(/c%A0/g, 'a').replace(/c%A2/g, 'a').replace(/c%81/g, 'A').replace(/c%80/g, 'A').replace(/c%82/g, 'A').replace(/c%83/g, 'A').replace(/c%A9/g, 'e').replace(/c%AA/g, 'e').replace(/c%89/g, 'E').replace(/c%8A/g, 'E').replace(/c%AD/g, 'i').replace(/c%8D/g, 'I').replace(/c%B5/g, 'o').replace(/c%B4/g, 'o').replace(/c%95/g, 'O').replace(/c%94/g, 'O');
